@@ -1,14 +1,128 @@
 *
 {
     font-family:'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
 }
 
 
+/* header style section */
 .header
 {
 
     background: #1F2937;
     color: white;
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /* outline: 1px red solid */
+
 
 }
+.header .big
+{
+
+    width: 1050px;
+    font-size: 24px;
+    margin-left: auto;
+
+
+
+
+}
+
+.header .small
+{
+
+    width: 150px;
+    margin-right: 30px;
+    font-size: 12px;
+
+
+
+}
+/* Intro block section */
+.hero
+{
+    background: #1F2937;
+    color: white;
+    height: 400px;
+    display: flex;
+    /* outline: 1px green solid; */
+
+
+
+}
+
+.hero .greeting
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+
+    padding-left: 200px;
+    padding-right: 200px;
+
+    /* outline: 1px pink solid; */
+
+
+}
+
+.hero .picture
+{
+    background: #6c747c;
+    width: 700px;
+    height:300px;
+    margin-left: 100px;
+    border: 10px #1F2937 solid;
+    text-align: center;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+
+
+
+
+}
+.desc
+{
+    padding-top: 120px;
+}
+
+
+
+ .hello
+{
+     font-size: 48px;
+     font-weight: 900;
+     padding-top: 50px;
+
+}
+
+ .info
+ {
+    padding-top: 10px;
+     color: #E5E7EB
+ }
+ .signup
+ {
+    background: #3882F6;
+     color: white;
+     font-size: 24px;
+     width: 200px;
+     margin-left: 250px;
+     margin-top: 10px;
+     font-family:'Roboto', sans-serif;
+     border-radius: 10px;
+
+ }
+
+/* random info section */
+
