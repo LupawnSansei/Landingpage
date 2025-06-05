@@ -126,3 +126,72 @@ body
 
 /* random info section */
 
+.boxes
+{
+    display: flex;
+    flex-direction: column;
+}
+.random
+{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+}
+.boxframe
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+.boxset
+{
+    display: flex;
+    flex-direction: column;
+}
+.box
+{
+    border : 5px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.subtext
+{
+    color: #6c747c;
+    font-family: 'Roboto', sans-serif;
+    font-size : 12px;
+    width: 70px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+
+/*quote*/
+.quote-box
+{   background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+.quote
+{
+
+    color: #1F2937;
+    font-size: 32px;
+    font-family:  'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.citation
+{
+    font-size: 24px;
+    padding-left: 600px;
+
+}
+
+/*call to action*/
