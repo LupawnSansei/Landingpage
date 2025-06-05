@@ -2,6 +2,8 @@
 {
     font-family:'Roboto', sans-serif;
     margin: 0;
+    /* outline: 5px red solid; */
+
 
 }
 
@@ -9,6 +11,7 @@ body
 {
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -144,6 +147,7 @@ body
     justify-content: space-between;
     margin-right: 350px;
     margin-left: 350px;
+    padding-bottom: 50px;
 }
 .boxset
 {
@@ -173,6 +177,7 @@ body
 {   background: #E5E7EB;
     display: flex;
     flex-direction: column;
+    padding: 80px;
 }
 .quote
 {
@@ -189,9 +194,42 @@ body
 }
 .citation
 {
+    padding: 15px;
     font-size: 24px;
-    padding-left: 600px;
+    padding-left: 900px;
 
 }
 
 /*call to action*/
+
+.action
+{
+    background: #3882F6;
+    color: #E5E7EB;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    display: flex;
+    padding: 50px;
+    width: 1500px;
+}
+
+.command
+{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 200px;
+
+}
+
+/* copyright */
+
+.copyright
+{
+    background: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 70px;
+}
